@@ -113,7 +113,7 @@ def detection(source,weights,imgsz,trace=False):
 
 if __name__ == '__main__':
     
-    weights = './5nano_seg-int8.tflite'
+    weights = './5nano_seg-int8_edgetpu.tflite'
     source = './movie_012_.mp4'
     imgsz = 640
     
